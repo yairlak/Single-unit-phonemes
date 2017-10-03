@@ -1,0 +1,38 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{titlesec}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage[round, semicolon, authoryear]{natbib}  % Use the "Natbib" style for the references in 
+\bibliographystyle{unsrtnat}  % Use the "unsrtnat" BibTeX style for formatting the Bibliography
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{bbm}
+\usepackage{amsfonts}
+\usepackage{tipa}
+\usepackage[scientific-notation=true]{siunitx}
+\usepackage{pdflscape}
+\usepackage{afterpage}
+\usepackage{xcolor}
+\usepackage{tabularx}
+\usepackage{capt-of}% or use the larger `caption` package
+\usepackage[toc,page]{appendix}
+
+\title{The functional organization of phonemes as revealed by single-unit activity}
+\author{}
+
+\begin{document}
+
+\maketitle
+
+
+\input{text.tex}
+\begin{appendices}
+\input{Appendices/Ch3_Appendix_A.tex}
+\end{appendices}
+
+%\bibliographystyle{unsrtnat}  % Use the "unsrtnat" BibTeX style for formatting the Bibliography
+%\printbibliography
+\bibliography{bib_thesis.bib}
+
+\end{document}
